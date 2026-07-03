@@ -2,7 +2,7 @@ import json
 import warnings
 from typing import Dict, Any
 import autogen
-from autogen import AssistantAgent
+from autogen_agentchat.agents import AssistantAgent
 
 def _last_content(chat_result) -> str:
     if hasattr(chat_result, "chat_history") and chat_result.chat_history:
