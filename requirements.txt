@@ -6,4 +6,5 @@ matplotlib-venn
 plotly
 pydantic
 python-dotenv
+openai
 pyautogen
